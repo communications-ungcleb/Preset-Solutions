@@ -625,3 +625,10 @@ h1,h2,h3,h4{ font-weight:400; letter-spacing:.01em; -webkit-text-stroke:.35px cu
     radial-gradient(circle var(--c) at 100% 0, transparent calc(var(--c) - 1px), #0b0b0d var(--c)) left bottom / var(--c) var(--c) no-repeat,
     url('../assets/img/strips.svg') center/cover no-repeat;
 }
+/* ===== hero headline: AIoT Security first, centered stats, core bubble copy ===== */
+.hero h1{ font-size:clamp(3.4rem,8vw,7rem); line-height:1; margin:var(--space-4) 0 var(--space-5); }
+.hero .hero-sub{ font-family:var(--font-head); font-size:clamp(1.4rem,2.6vw,2.1rem); color:var(--gray-600); max-width:none; -webkit-text-stroke:.3px currentColor; }
+.hero-stats > div{ text-align:center; }
+.bubble-core small{ display:none; }
+.bubble-core strong{ font-size:clamp(.95rem,2vw,1.4rem); }
+.core-lines{ font-size:clamp(.62rem,1.15vw,.85rem); line-height:1.4; color:rgba(255,255,255,.85); letter-spacing:.02em; }
