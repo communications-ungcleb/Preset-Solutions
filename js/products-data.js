@@ -1,0 +1,107 @@
+// Shared product catalog data — used to render cards on Home / Products hub / related-product chips
+const PRODUCTS = [
+  {
+    slug: 'qinserver',
+    name: 'Q-InServer',
+    tagline: 'Queuing management system',
+    accent: 'acc-qinserver',
+    logo: 'assets/img/sublogos/qinserver.png',
+    logoWhite: 'assets/img/sublogos/qinserver-white.png',
+    photo: 'assets/img/products/qinserver.jpg',
+    brochure: 'assets/brochures/qinserver-brochure.pdf',
+    page: 'product-qinserver.html',
+    category: 'Queuing System',
+    short: 'The best automated and flexible queuing management solution — turning crowded lobbies into an orderly, branded customer experience.'
+  },
+  {
+    slug: 'nurseeker',
+    name: 'NurSeeker',
+    tagline: 'Nurse call system',
+    accent: 'acc-nurseeker',
+    logo: 'assets/img/sublogos/nurseeker.png',
+    logoWhite: 'assets/img/sublogos/nurseeker-white.png',
+    photo: 'assets/img/products/nurseeker.jpg',
+    brochure: 'assets/brochures/nurseeker-brochure.pdf',
+    page: 'product-nurseeker.html',
+    category: 'Nurse Call',
+    short: 'A flexible, integrated nurse call communications platform that routes patient calls straight to the caregiver who needs them.'
+  },
+  {
+    slug: 'pediascaler',
+    name: 'PediaScaler',
+    tagline: 'Automated pediatric table',
+    accent: 'acc-pediascaler',
+    logo: 'assets/img/sublogos/pediascaler.png',
+    logoWhite: 'assets/img/sublogos/pediascaler-white.png',
+    photo: 'assets/img/products/pediascaler.jpg',
+    brochure: 'assets/brochures/pediascaler-brochure.pdf',
+    page: 'product-pediascaler.html',
+    category: 'Healthcare and Biomedicals',
+    short: 'An exclusive, high-tech automated childcare examination table that measures, secures and centralizes every pediatric exam.'
+  },
+  {
+    slug: 'callsaver',
+    name: 'CallSaver',
+    tagline: 'Call tracer & call recorder',
+    accent: 'acc-callsaver',
+    logo: 'assets/img/sublogos/callsaver.png',
+    logoWhite: 'assets/img/sublogos/callsaver-white.png',
+    photo: 'assets/img/products/callsaver.jpg',
+    brochure: 'assets/brochures/callsaver-brochure.pdf',
+    page: 'product-callsaver.html',
+    category: 'Telecommunication',
+    short: 'The most versatile solution for call tracing, billing and supervision — full call detail reporting for any PBX.'
+  },
+  {
+    slug: 'callscreener',
+    name: 'CallScreener',
+    tagline: 'Live events monitor',
+    accent: 'acc-callscreener',
+    logo: 'assets/img/sublogos/callscreener.png',
+    logoWhite: 'assets/img/sublogos/callscreener-white.png',
+    photo: 'assets/img/products/callscreener.jpg',
+    brochure: null,
+    page: 'product-callscreener.html',
+    category: 'Telecommunication',
+    short: 'An efficient, sharp solution for screening and monitoring call center lines in real time — idle, ringing or busy.'
+  },
+  {
+    slug: 'ctrlsmarter',
+    name: 'Ctrl-Smarter',
+    tagline: 'Automation & control',
+    accent: 'acc-ctrlsmarter',
+    logo: 'assets/img/sublogos/ctrlsmarter.png',
+    logoWhite: 'assets/img/sublogos/ctrlsmarter-white.png',
+    photo: 'assets/img/products/ctrlsmarter.jpg',
+    brochure: null,
+    page: 'product-ctrlsmarter.html',
+    category: 'Automation & Control',
+    short: 'The smartest way to boost your automation and control ability — manage premises from a touch screen, PC or smartphone.'
+  },
+  {
+    slug: 'acousticker',
+    name: 'Acousticker',
+    tagline: 'Dynamic orthophonic unit',
+    accent: 'acc-acousticker',
+    logo: 'assets/img/sublogos/acousticker.png',
+    logoWhite: 'assets/img/sublogos/acousticker-white.png',
+    photo: 'assets/img/products/acousticker.jpg',
+    brochure: null,
+    page: 'product-acousticker.html',
+    category: 'Healthcare and Biomedicals',
+    short: 'The fastest, most reliable training tool for speech enhancement therapy, tailored from early childhood through geriatric care.'
+  },
+  {
+    slug: 'alertsounder',
+    name: 'AlertSounder',
+    tagline: 'Smart alert notification',
+    accent: 'acc-alertsounder',
+    logo: 'assets/img/sublogos/alertsounder.png',
+    logoWhite: 'assets/img/sublogos/alertsounder-white.png',
+    photo: 'assets/img/products/alertsounder.jpg',
+    brochure: null,
+    page: 'product-alertsounder.html',
+    category: 'Automation & Control',
+    short: 'A multipurpose visual and audible alert system that broadcasts real-time notifications across large sites and facilities.'
+  }
+];
