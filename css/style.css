@@ -635,3 +635,6 @@ h1,h2,h3,h4{ font-weight:400; letter-spacing:.01em; -webkit-text-stroke:.35px cu
 /* hero: full tagline as the big headline */
 .hero h1{ font-size:clamp(2.6rem,5.4vw,5rem); line-height:1.06; margin:0 0 var(--space-5); }
 .hero .hero-sub{ font-size:clamp(1.25rem,2.2vw,1.8rem); }
+/* hero headline: a bit smaller */
+.hero h1{ font-size:clamp(2.1rem,4.2vw,3.9rem); }
+.hero .hero-sub{ font-size:clamp(1.1rem,1.9vw,1.5rem); }
