@@ -661,3 +661,8 @@ h1,h2,h3,h4{ font-weight:400; letter-spacing:.01em; -webkit-text-stroke:.35px cu
 .core-lines::before{ content:''; display:block; width:28px; height:2px; margin:clamp(6px,1vw,11px) auto clamp(5px,.8vw,9px); background:var(--red); border-radius:2px; }
 .bubble-core, .bubble-core *{ text-align:center; }
 .bubble-core strong{ width:100%; }
+
+/* AIoT bubble: smaller single-line title */
+.bubble-core strong{ flex-direction:row; flex-wrap:nowrap; justify-content:center; align-items:baseline; gap:.28em; white-space:nowrap; font-size:clamp(.85rem,1.75vw,1.35rem); line-height:1.1; }
+.core-ai, .core-sec{ font-size:1em; margin:0; }
+.core-lines{ font-size:clamp(.46rem,.85vw,.68rem); }
