@@ -632,3 +632,6 @@ h1,h2,h3,h4{ font-weight:400; letter-spacing:.01em; -webkit-text-stroke:.35px cu
 .bubble-core small{ display:none; }
 .bubble-core strong{ font-size:clamp(.95rem,2vw,1.4rem); }
 .core-lines{ font-size:clamp(.62rem,1.15vw,.85rem); line-height:1.4; color:rgba(255,255,255,.85); letter-spacing:.02em; }
+/* hero: full tagline as the big headline */
+.hero h1{ font-size:clamp(2.6rem,5.4vw,5rem); line-height:1.06; margin:0 0 var(--space-5); }
+.hero .hero-sub{ font-size:clamp(1.25rem,2.2vw,1.8rem); }
